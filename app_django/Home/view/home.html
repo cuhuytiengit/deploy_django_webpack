@@ -1,0 +1,18 @@
+{% load static %}{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  {% render_bundle 'app' 'css' %}
+  <body>
+    <h1>test webpack</h1>
+    <img
+      src="{% static 'img/django-logo-negative.1d528e2cb5fb.png' %}"
+      alt=""
+    />
+    Home {% render_bundle 'app' 'js' %}
+  </body>
+</html>

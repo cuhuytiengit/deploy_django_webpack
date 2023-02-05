@@ -1,0 +1,10 @@
+Django>=3.0,<4.0
+psycopg2>=2.8
+requests[security] == 2.27.1
+urllib3 == 1.26.8
+fontawesomefree
+pymemcache
+Pillow
+django-cors-headers
+pytz
+django-webpack-loader

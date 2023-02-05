@@ -1,0 +1,13 @@
+env
+app_django/package-lock.json
+app_django/node_modules
+project_django/__pycache__/
+app_django/__pycache__/
+app_django/migrations/__pycache__/
+app_django/Home/controller/__pycache__/
+build
+package-lock.json
+db.sqlite3
+static
+node_modules
+webpack-stats.json

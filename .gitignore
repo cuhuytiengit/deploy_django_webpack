@@ -8,6 +8,5 @@ app_django/Home/controller/__pycache__/
 build
 package-lock.json
 db.sqlite3
-static
 node_modules
 webpack-stats.json
